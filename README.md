@@ -4,6 +4,12 @@ If you use [testdouble.js](https://github.com/testdouble/testdouble.js), you mig
 mocking chained APIs. In most cases, you should probably just [avoid the problem](https://github.com/testdouble/contributing-tests/wiki/Don%27t-mock-what-you-don%27t-own).
 If you're sure you want to do this, td-chain should help a little.
 
+## Installation
+
+```
+npm install td-chain
+```
+
 ## Usage
 
 Say you have a module `./test/subject` that calls `./my/api` like this:
@@ -59,10 +65,4 @@ td.when(td3('something else'))
 const subject = require('./test/subject')
 
 assert(subject() === result)
-```
-
-## Installation
-
-```
-npm install td-chain
 ```
