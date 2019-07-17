@@ -1,6 +1,6 @@
 {
   "name": "td-chain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little helper for mocking chainable APIs with testdouble.js",
   "main": "lib/index.js",
   "scripts": {
